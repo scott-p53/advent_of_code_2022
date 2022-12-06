@@ -1,8 +1,6 @@
-use std::{env};
-use advent_of_code::day4::{solution::solution};
+use advent_of_code::day6::{solution::solution};
 
 fn main() {
-    //let args: Vec<String> = env::args().collect();
-    let file_path = &String::from("../inputs/day_4.txt");//&args[1];
+    let file_path = &String::from("../inputs/day_6.txt");
     print!("Solution={}.\n", solution(file_path));
 }
